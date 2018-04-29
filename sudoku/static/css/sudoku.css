@@ -1,0 +1,142 @@
+html, body {
+  background-color: #FAFAFA
+}
+
+table {
+  border: 2px solid #000000;
+}
+
+td {
+  border: 1px solid #000000;
+  text-align: center;
+  vertical-align: middle;  
+}
+
+input {
+  color: #000000;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  background-color: #FFFFFF;
+  outline: none;
+}
+
+input:disabled {
+  background-color: #EEEEEE;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #e2e2e2;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#cell-0,  #cell-1,  #cell-2  { border-top:    2px solid #000000; }
+#cell-2,  #cell-11, #cell-20 { border-right:  2px solid #000000; }
+#cell-18, #cell-19, #cell-20 { border-bottom: 2px solid #000000; }
+#cell-0,  #cell-9,  #cell-18 { border-left:   2px solid #000000; }
+
+#cell-3,  #cell-4,  #cell-5  { border-top:    2px solid #000000; }
+#cell-5,  #cell-14, #cell-23 { border-right:  2px solid #000000; }
+#cell-21, #cell-22, #cell-23 { border-bottom: 2px solid #000000; }
+#cell-3,  #cell-12, #cell-21 { border-left:   2px solid #000000; }
+
+#cell-6,  #cell-7,  #cell-8  { border-top:    2px solid #000000; }
+#cell-8,  #cell-17, #cell-26 { border-right:  2px solid #000000; }
+#cell-24, #cell-25, #cell-26 { border-bottom: 2px solid #000000; }
+#cell-6,  #cell-15, #cell-24 { border-left:   2px solid #000000; }
+
+#cell-27, #cell-28, #cell-29 { border-top:    2px solid #000000; }
+#cell-29, #cell-38, #cell-47 { border-right:  2px solid #000000; }
+#cell-45, #cell-46, #cell-47 { border-bottom: 2px solid #000000; }
+#cell-27, #cell-36, #cell-45 { border-left:   2px solid #000000; }
+
+#cell-30, #cell-31, #cell-32 { border-top:    2px solid #000000; }
+#cell-32, #cell-41, #cell-50 { border-right:  2px solid #000000; }
+#cell-48, #cell-49, #cell-50 { border-bottom: 2px solid #000000; }
+#cell-30, #cell-39, #cell-48 { border-left:   2px solid #000000; }
+
+#cell-33, #cell-34, #cell-35 { border-top:    2px solid #000000; }
+#cell-35, #cell-44, #cell-53 { border-right:  2px solid #000000; }
+#cell-51, #cell-52, #cell-53 { border-bottom: 2px solid #000000; }
+#cell-33, #cell-42, #cell-51 { border-left:   2px solid #000000; }
+
+#cell-54, #cell-55, #cell-56 { border-top:    2px solid #000000; }
+#cell-56, #cell-65, #cell-74 { border-right:  2px solid #000000; }
+#cell-72, #cell-73, #cell-74 { border-bottom: 2px solid #000000; }
+#cell-54, #cell-63, #cell-72 { border-left:   2px solid #000000; }
+
+#cell-57, #cell-58, #cell-59 { border-top:    2px solid #000000; }
+#cell-59, #cell-68, #cell-77 { border-right:  2px solid #000000; }
+#cell-75, #cell-76, #cell-77 { border-bottom: 2px solid #000000; }
+#cell-57, #cell-66, #cell-75 { border-left:   2px solid #000000; }
+
+#cell-60, #cell-61, #cell-62 { border-top:    2px solid #000000; }
+#cell-62, #cell-71, #cell-80 { border-right:  2px solid #000000; }
+#cell-78, #cell-79, #cell-80 { border-bottom: 2px solid #000000; }
+#cell-60, #cell-69, #cell-78 { border-left:   2px solid #000000; }
+
+
+/*solution*/
+#solution-cell-0,  #solution-cell-1,  #solution-cell-2  { border-top:    2px solid #000000; }
+#solution-cell-2,  #solution-cell-11, #solution-cell-20 { border-right:  2px solid #000000; }
+#solution-cell-18, #solution-cell-19, #solution-cell-20 { border-bottom: 2px solid #000000; }
+#solution-cell-0,  #solution-cell-9,  #solution-cell-18 { border-left:   2px solid #000000; }
+
+#solution-cell-3,  #solution-cell-4,  #solution-cell-5  { border-top:    2px solid #000000; }
+#solution-cell-5,  #solution-cell-14, #solution-cell-23 { border-right:  2px solid #000000; }
+#solution-cell-21, #solution-cell-22, #solution-cell-23 { border-bottom: 2px solid #000000; }
+#solution-cell-3,  #solution-cell-12, #solution-cell-21 { border-left:   2px solid #000000; }
+
+#solution-cell-6,  #solution-cell-7,  #solution-cell-8  { border-top:    2px solid #000000; }
+#solution-cell-8,  #solution-cell-17, #solution-cell-26 { border-right:  2px solid #000000; }
+#solution-cell-24, #solution-cell-25, #solution-cell-26 { border-bottom: 2px solid #000000; }
+#solution-cell-6,  #solution-cell-15, #solution-cell-24 { border-left:   2px solid #000000; }
+
+#solution-cell-27, #solution-cell-28, #solution-cell-29 { border-top:    2px solid #000000; }
+#solution-cell-29, #solution-cell-38, #solution-cell-47 { border-right:  2px solid #000000; }
+#solution-cell-45, #solution-cell-46, #solution-cell-47 { border-bottom: 2px solid #000000; }
+#solution-cell-27, #solution-cell-36, #solution-cell-45 { border-left:   2px solid #000000; }
+
+#solution-cell-30, #solution-cell-31, #solution-cell-32 { border-top:    2px solid #000000; }
+#solution-cell-32, #solution-cell-41, #solution-cell-50 { border-right:  2px solid #000000; }
+#solution-cell-48, #solution-cell-49, #solution-cell-50 { border-bottom: 2px solid #000000; }
+#solution-cell-30, #solution-cell-39, #solution-cell-48 { border-left:   2px solid #000000; }
+
+#solution-cell-33, #solution-cell-34, #solution-cell-35 { border-top:    2px solid #000000; }
+#solution-cell-35, #solution-cell-44, #solution-cell-53 { border-right:  2px solid #000000; }
+#solution-cell-51, #solution-cell-52, #solution-cell-53 { border-bottom: 2px solid #000000; }
+#solution-cell-33, #solution-cell-42, #solution-cell-51 { border-left:   2px solid #000000; }
+
+#solution-cell-54, #solution-cell-55, #solution-cell-56 { border-top:    2px solid #000000; }
+#solution-cell-56, #solution-cell-65, #solution-cell-74 { border-right:  2px solid #000000; }
+#solution-cell-72, #solution-cell-73, #solution-cell-74 { border-bottom: 2px solid #000000; }
+#solution-cell-54, #solution-cell-63, #solution-cell-72 { border-left:   2px solid #000000; }
+
+#solution-cell-57, #solution-cell-58, #solution-cell-59 { border-top:    2px solid #000000; }
+#solution-cell-59, #solution-cell-68, #solution-cell-77 { border-right:  2px solid #000000; }
+#solution-cell-75, #solution-cell-76, #solution-cell-77 { border-bottom: 2px solid #000000; }
+#solution-cell-57, #solution-cell-66, #solution-cell-75 { border-left:   2px solid #000000; }
+
+#solution-cell-60, #solution-cell-61, #solution-cell-62 { border-top:    2px solid #000000; }
+#solution-cell-62, #solution-cell-71, #solution-cell-80 { border-right:  2px solid #000000; }
+#solution-cell-78, #solution-cell-79, #solution-cell-80 { border-bottom: 2px solid #000000; }
+#solution-cell-60, #solution-cell-69, #solution-cell-78 { border-left:   2px solid #000000; }
